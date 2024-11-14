@@ -175,9 +175,9 @@ def Total():
     cgpa_value11_entry.insert(0, cgpa_grade)
 
     if cgpa_grade < 3.5:
-        title.configure(text=f"Your CGPA Grade is {cgpa_grade}", font=(("Arial bold"), 20), fg="red")
+        title.configure(text=f"Your GP Grade is {cgpa_grade}", font=(("Arial bold"), 20), fg="red")
     else:
-        title.configure(text=f"Your CGPA Grade is {cgpa_grade}", font=(("Arial bold"), 20), fg="green")
+        title.configure(text=f"Your GP Grade is {cgpa_grade}", font=(("Arial bold"), 20), fg="green")
 
 
 def Clear():
@@ -325,9 +325,9 @@ grad5 = ttk.Combobox(grade_name, values=options)
 grad6 = ttk.Combobox(grade_name, values=options)
 grad7 = ttk.Combobox(grade_name, values=options)
 grad8 = ttk.Combobox(grade_name, values=options)
-lab_credit_unt = Label(grade_name, text="Total CGPA Credit Unit", font= (("Arial bold"), 10), bg = "#000FFF", fg="white")
+lab_credit_unt = Label(grade_name, text="Total GP Credit Unit", font= (("Arial bold"), 10), bg = "#000FFF", fg="white")
 lab_grade_unt = Label(grade_name, text="Total Unit Score", font= (("Arial bold"), 10), bg = "#000FFF", fg="white")
-lab_cgps_unt = Label(grade_name, text="Your CGPA is", font= (("Arial bold"), 10), bg = "#000FFF", fg = "white")
+lab_cgps_unt = Label(grade_name, text="Your GP is", font= (("Arial bold"), 10), bg = "#000FFF", fg = "white")
 
 grad1.grid(row=1, column =0)
 grad2.grid(row=2, column =0)
