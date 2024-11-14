@@ -1,1 +1,3 @@
-# The Cumulative Grade Point Average (CGPA) Calculator is a user-friendly tool that measures a student's overall academic performance by averaging the grade points earned in all courses taken during their academic program. Built with Python Tkinter, this calculator boasts an intuitive user design, making it easy for students to calculate their CGPA accurately and efficiently.
+** MAU GP Calculator Project Overview ** 
+
+# This project is a GPA calculator designed to handle 8 courses, calculating the Grade Point (GP), total credit units, and overall grades. Users input course credits and grades to receive results in a simple, user-friendly interface.
