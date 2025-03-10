@@ -1,3 +1,3 @@
-# M.A.U GP Calculator Project Overview 
+# M.A.U Grade Point Calculator Project Overview 
 
-This project is a GPA calculator built with Python Tkinter, designed to handle 8 courses, calculating the Grade Point (GP), total credit units, and overall grades. Users input course credits and grades to receive results in a simple, user-friendly interface.
+The M.A.U GP calculator, built with Python Tkinter, computes Grade Points, credit units, and overall grades for up to 8 courses. Users input course details and receive results via a simple interface.
